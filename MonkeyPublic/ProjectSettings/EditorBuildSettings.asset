@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Kyle's Crap/Main Menu.unity
+    guid: 6227d17b25f9052428a8f4e1db892c6f
+  - enabled: 1
+    path: Assets/Scenes/Kyle's Crap/Options Menu.unity
+    guid: 50c655c85e9e7bc428b35b0a38df38be
+  - enabled: 1
+    path: Assets/Scenes/Kyle's Crap/Pause Menu.unity
+    guid: d9d061de0291b4e4abd192824a392756
+  - enabled: 1
+    path: Assets/Scenes/_main.unity
+    guid: d00b843b0377c584fa4931f569a5cf40
   m_configObjects: {}
