@@ -1,5 +1,23 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9164352287818657185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD Project/FairyGameFMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637075671952621964
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14,15 +32,69 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: 9155751863291506751}
-  - {fileID: 5494232474143190008}
+  - {fileID: 4638400584849729656}
   EditorEvents: []
   EditorParameters: []
   MasterBanks:
-  - {fileID: 5494232474143190008}
+  - {fileID: 4638400584849729656}
   StringsBanks:
   - {fileID: 9155751863291506751}
-  stringsBankWriteTime: 637075626816525454
+  stringsBankWriteTime: 637075681660660168
   cacheVersion: 3
+--- !u!114 &3702973530596538695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD Project/FairyGameFMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637075669361025516
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &4506269479230035786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD Project/FairyGameFMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637075672659666731
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &4638400584849729656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD Project/FairyGameFMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637075681660521292
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &5494232474143190008
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40,7 +112,7 @@ MonoBehaviour:
   lastModified: 637075626816386543
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &9155751863291506751
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55,7 +127,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../FMOD Project/FairyGameFMOD/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637075626816525454
+  lastModified: 637075681660660168
   LoadResult: 0
   FileSizes:
   - Name: Desktop

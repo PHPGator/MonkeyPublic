@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="EventFolder" id="{a0dabb89-7644-4cdc-8aa3-312249b58dee}">
+		<property name="name">
+			<value>Vertical Stem Mixing</value>
+		</property>
+		<relationship name="folder">
+			<destination>{7b5dd3da-33fb-411b-8ef8-79d19824ae52}</destination>
+		</relationship>
+	</object>
+</objects>

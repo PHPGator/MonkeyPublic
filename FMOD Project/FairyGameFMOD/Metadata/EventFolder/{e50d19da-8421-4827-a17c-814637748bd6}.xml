@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="EventFolder" id="{e50d19da-8421-4827-a17c-814637748bd6}">
+		<property name="name">
+			<value>Adaptive</value>
+		</property>
+		<relationship name="folder">
+			<destination>{4a6c7fbf-fc1e-44de-b10d-0e068bde7138}</destination>
+		</relationship>
+	</object>
+</objects>
