@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class KD_PauseMenu : MonoBehaviour
 {
+    public Canvas MainUI;
     public void ResumeButtonClicked()
     {
 
@@ -16,6 +17,8 @@ public class KD_PauseMenu : MonoBehaviour
     public void MainMenuButtonClicked()
     {
         SceneManager.LoadScene(0);
+        //MainMenu.gameObject.SetActive(false);
+        //OptionsMenu.gameObject.SetActive(true);
     }
 
 }

@@ -8,7 +8,8 @@ using UnityEngine.UI;
 public class KD_OptionsMenu : MonoBehaviour
 {
     public GameObject SoundSlider;
-    public GameObject FullScreenBoolean;
+    public Canvas MainUI;
+
 
     public static float soundVolume;
 
@@ -33,7 +34,9 @@ public class KD_OptionsMenu : MonoBehaviour
 
     public void ReturnButtonClicked()
     {
-        SceneManager.LoadScene(0);
+        KD_MainMenu MainUIContainer = MainUI.GetComponent<KD_MainMenu>();
+        MainUIContainer.OptionsMenu.gameObject.SetActive(false);
+        MainUIContainer.MainMenu.gameObject.SetActive(true);
     }
 
     public void SetSoundVolume()

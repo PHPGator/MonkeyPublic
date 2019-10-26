@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/_main.unity
     guid: d00b843b0377c584fa4931f569a5cf40
+  - enabled: 1
+    path: Assets/Scenes/Kyle's Crap/KD_Prototype.unity
+    guid: 1e0c56b9067730949a7d5de28f35abd6
   m_configObjects: {}
